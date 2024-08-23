@@ -26,7 +26,7 @@ We present an experimental evaluation of our proposed CCSTGN architecture using 
 Execute `experiment1.py` or `experiment2.py` for each model according to their corresponding arguments. For instance, for the validation run of CCSTGN-iso:
 
 ```
-python train_supervised.py --experiment 'validation' --variant 'iso' \
+python experiment1.py --experiment 'validation' --variant 'iso' \
                 --bs 10000 \
                 --n_layers 1 \
                 --n_neighbors 5 \
